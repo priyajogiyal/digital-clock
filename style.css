@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #140238;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/time.jpg);
+    background-size: cover;
+    filter: hue-rotate( 45deg);
+}
+
+#clock {
+    display: block;
+    width: 49%;
+    height: 50%;
+    margin: 0 auto;
+    padding-top: 25%;
+    text-align: center;
+    font-size: 5.8rem;
+    font-weight: 700;
+    line-height: 4rem;
+    letter-spacing: 1px;
+    font-family: 'Black Ops One', cursive;
+    color: #fff;
+}
+
+#divdate {
+    display: block;
+    width: 49%;
+    height: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4rem;
+    font-family: 'Megrim', cursive;
+    color: #fff;
+}
